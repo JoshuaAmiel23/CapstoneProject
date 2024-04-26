@@ -3,13 +3,6 @@
     margin: 0;
     text-align: center;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 .cloudsize1{
     position: absolute;
     height: 200px ;
@@ -29,7 +22,7 @@ p {
     padding-top: 100px;
     padding-bottom: 315px;
 }
-.hero-block, h3, .coding{
+.hero-block, h3{
     display: block;
 }
 h1{
@@ -92,18 +85,19 @@ hr{
     margin: 100px;
 }
 .typingcat{
-    height: 200px;
-}
-.catposition{
-    margin-right: 5rem ;
-
+    height: 240px;
 }
 .gridcontainer{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(1, 1fr);
-    width: 70%;
-    margin: 100px auto 0 auto;
-    text-align: left;
+    width: 50%;
+    margin: 120px auto;
     row-gap: 2rem;
+}
+.codingparagraph, .codingtitle{
+    text-align: left;
+    line-height: 1.6;
+    margin: 5px;
+    font-size: 20px;
 }
