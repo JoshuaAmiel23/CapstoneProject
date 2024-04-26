@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.cloudsize1{
+    position: absolute;
+    height: 200px ;
+    width: 200px ;
+    right: 495px;
+    margin: -110px auto;
+}
+.cloudsize2{
+    position: absolute;
+    height: 200px;
+    width: 200px ;
+    left: 450px;
+    margin: 190px auto;
+}
+.top-container{
+    background-color: #7fcdff;
+    padding-top: 100px;
+    padding-bottom: 315px;
+}
+.hero-block, h3, .coding{
+    display: block;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 5.5rem;
+    color: #102C57;
+    margin: 30px;
+}
+h2{
+    font-family: "Source Code Pro",sans-serif;
+    color: #102C57;
+    font-size: 1.6rem;
+}
+h3{
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-right: 30rem ;
+    color: #102C57;
+}
+.mountfujiposition{
+    position: relative;
+    right: 12.5rem;
+}
+.mountfujisize{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+.photosize{
+    border-radius: 5.5rem;
+    background-color: #7fcdff;
+    height: 200px;
+    width: 200px;
+}
+.mid-container{
+    margin: 90px;
+}
+.h2-fontsize{
+    font-size: 2.5rem;
+    margin: 25px;
+}
+.introduction1{
+    width: 20%;
+    margin: auto
+}
+.introduction2{
+    font-size: 15px;
+}
+.introduction1, .introduction2{
+    font-family: "Source Code Pro", sans-serif;
+}
+hr{
+    border: dotted #7fcdff 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+.skills{
+    font-size: 3rem;
+    margin: 100px;
+}
+.typingcat{
+    height: 200px;
+}
+.catposition{
+    margin-right: 5rem ;
+
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 70%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
